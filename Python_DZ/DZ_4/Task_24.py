@@ -19,7 +19,7 @@ lis = lis + lis[:2]
 ma = 0
 
 for i in range(namber):
-    ma = max( ma, lis[i] + lis[i+1] + lis[i+2] ) 
+    ma = max( ma, lis[i] + lis[i+1] + lis[i+2] ) # 17, 10, 17, 21, 22
 print(ma)
 
 
