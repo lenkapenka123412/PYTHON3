@@ -33,7 +33,7 @@ def del_data(str):
         for i in lst:
             data.write(i)
 
-# aункция вывода всех контактов
+# функция вывода всех контактов
 def full_list_data():
     with open('Python_DZ\DZ_8\main/new_example.txt', 'r', encoding='UTF-8') as data:
         data = list(map(lambda x: x, data))
